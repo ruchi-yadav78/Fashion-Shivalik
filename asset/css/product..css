@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.headspart{
+    height: 60px;
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+}
+.titlehead{
+    width: 100%;
+    text-align: center;
+}
+.sparkshead{
+    position: relative;
+     color: white;
+    font-size: 20px;
+}
+.homes {
+    margin-top: 30px;
+    font-size: 26px;
+}
+.pagesec3 {
+    height: 100%;
+    margin: 0 auto;
+    }
+    
+.catego1 img{
+    height: 235px;
+    width: 186px;
+ }
+ .brackets{
+     background-color: rgb(153, 219, 53);
+     width: 186px;
+     color: black;
+     text-align: center;
+     padding: 23px 0;
+ }
+ .moreproduct{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 64px;  
+}
+.backpage{
+    margin-left: 70px;
+    margin-top: 35px;
+}
+.backpage b{
+    font-size: 35px;
+}
+.nevibluesaree{
+    margin: 70px;
+    display: flex;
+    column-gap: 100px;
+}
+.producpart1 {
+    width: 550px;
+}
+.prodctitle {
+    font-size: 40px;
+    font-weight: 600;
+}
+.prod1img img{
+    height: 400px;
+    width: 300px;
+}
+.product1price{
+    display: flex;
+    font-size: 30px;
+    margin-top: 30px;
+    column-gap: 30px;
+}
+.product1price span {
+    text-decoration: line-through;
+    color: #da1818;
+}
+.proddiscrip {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    word-spacing: 4px;
+}
+.offers {
+    margin-top: 30px;
+    font-size: 21px;
+    color: rgb(90, 86, 86);
+}
+/* ------------------------------------footer css start here -----------------------------------*/
+footer {
+    margin-top: 70px;
+    padding: 50px 0;
+    background-color: dodgerblue;
+}
+
+.footpart{
+    display: flex;
+    column-gap: 43px;
+    justify-content: center;
+}
+.fpart1{
+    display: flex;
+    justify-content: center;
+}
+.fem2{
+    font-size: 13px;
+}
+.fem1 svg{
+    height: 35px;
+    width: 70px;
+}
+.footborder{
+    border-bottom: 1px solid #c4b7b7;
+    margin-top: 35px;
+}
+.footpart2{
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.ficon2{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 7px;
+}
+.fb,.twiter,.yt{
+    height: 23px;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.fb:hover,.twiter:hover,.yt:hover{
+  background-color: palevioletred;
+}
+.ftwo1 {
+    line-height: 22px;
+}
+.lorem,.Winter,.Tracking,.denim {
+    margin-top: 11px;
+}
+.ftwo2 {
+    line-height: 22px;
+}
+.ftwo3 {
+    line-height: 22px;
+}
+.ftwo4 {
+    line-height: 22px;
+}
+.email {
+    margin-top: 22px;
+}
+.email input{
+    width: 406px;
+    text-align: center;
+    border: 1px solid rgb(231, 227, 227);
+    height: 35px;
+}
+.btns input{
+    width: 406px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    height: 35px;
+}
+.btns input:hover{
+    border: 1px solid rgb(230, 95, 140);
+    background-color: rgb(230, 95, 140);
+}
+
+.btns{
+    margin-top: 13px;
+}
+.signtitle{
+    margin-top: 12px;
+}
+/* ---------------------------------------------footer css end here------------------------------------- */
+
+@media only screen and (min-width : 320px) and (max-width : 500px){
+    .moreproduct{
+        row-gap: 50px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .nevibluesaree{
+        margin: 22px 20px;
+        flex-direction: column;
+        row-gap: 30px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .prod1img {
+        text-align: center;
+    }
+    .producpart1 {
+        width: 100%;
+    }
+    .prod1img img {
+        height: 405px;
+        width: 278px;
+    }
+    .footpart{
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
+    .fpart1 {
+        width: 233px;
+        display: flex;
+        justify-content: start;
+        column-gap: 40px;
+    }
+    .footpart2{
+        justify-content: center;
+        padding: 0 20px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .email input{
+        width: 100%;
+    }
+    .btns input{
+        width: 100%;
+    }
+}
+@media only screen and (min-width : 501px) and (max-width : 768px){
+    .homes{
+        margin-left: 40px;
+    }
+    .moreproduct{
+        row-gap: 50px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .nevibluesaree{
+        margin: 22px 20px;
+        flex-direction: column;
+        row-gap: 30px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .prod1img {
+        text-align: center;
+    }
+    .producpart1 {
+        width: 100%;
+    }
+    .prod1img img {
+        height: 405px;
+        width: 278px;
+    }
+    .catego1 img {
+        height: 385px;
+        width: 296px;
+    }
+    .brackets{
+        width: 100%;
+    }
+    /* footer start here */
+    .footpart{
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
+    .fpart1 {
+        width: 233px;
+        display: flex;
+        justify-content: start;
+        column-gap: 40px;
+    }
+    .footpart2{
+        justify-content: center;
+        padding: 0 70px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .email input{
+        width: 100%;
+    }
+    .btns input{
+        width: 100%;
+    }
+}
+@media only screen and (min-width : 769px) and (max-width : 900px){
+    .nevibluesaree{
+        margin: 22px 20px;
+        flex-direction: column;
+        row-gap: 30px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .prod1img {
+        text-align: center;
+    }
+    .producpart1 {
+        width: 100%;
+    }
+    .prod1img img {
+        height: 405px;
+        width: 278px;
+    }
+}
+@media only screen and (min-width : 769px) and (max-width : 1200px){
+    .homes{
+        margin-left: 40px;
+    }
+    .moreproduct{
+        row-gap: 50px;
+        margin-top: 50px;
+        flex-direction: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .catego1 img {
+        height: 385px;
+        width: 296px;
+    }
+    .brackets{
+        width: 100%;
+    }
+    /* footer start here */
+    .footpart{
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
+    .fpart1 {
+        width: 233px;
+        display: flex;
+        justify-content: start;
+        column-gap: 40px;
+    }
+    .footpart2{
+        justify-content: space-between;
+        column-gap: 14px;
+        padding: 0 20px;
+
+    }
+    .signtitle{
+        width: 200px;
+    }
+    .email input{
+        width:230px;
+    }
+    .btns input{
+        width: 230px;
+    }
+}
